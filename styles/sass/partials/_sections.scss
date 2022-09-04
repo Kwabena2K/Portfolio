@@ -1,60 +1,162 @@
 .categories {
-    margin-top: 90px;
+  margin-top: 90px;
 }
 
-.categoryList {
+.home {
+  background-image: url("../../../assets/bg-image.jpg");
+  background-position: center;
+  filter: blur(4px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+}
+
+.bg-text {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  border: 3px solid #f1f1f1;
+  color: white;
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+  h1 {
+    color: $solidWhite;
+    margin: 0;
+  }
+  span {
+    color: $blue;
+  }
+}
+
+// Skills section
+.skills {
+  h2 {
+    margin-bottom: 50px;
+  }
+  .skillsContainer {
+    margin: 0 auto;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    .itemOne {
-        background-color: $quinary;
-    }
-    .itemTwo {
-        background-color: $secondary;
-    }
-    .itemThree {
-        background-color: $tertiary;
-    }
-    .itemFour {
-        background-color: $quaternary;
-    }
-    // List item styles
-    .items {
-        border-radius: 10%;
-        width: calc( 45% - 50px);
-        margin: 50px 25px 25px;
-        padding: 40px;
+
+    li {
+      padding: 20px 80px;
+
+      list-style: none;
+      i {
+        font-size: 100px;
+      }
+      p {
         text-align: center;
-        transition: 0.3s;
-        // Image styles
-        img {
-            border-radius: 10%;
-            margin-bottom: 15px;
-        }
+
+        text-transform: uppercase;
         &:hover {
-            transform: scale(0.9);
+          color: $blue;
+          transition: ease-in 0.1s;
+          cursor: pointer;
         }
+      }
     }
+  }
 }
 
-// Let them play
-.play {
-    background-image: url("../assets/background-image.jpg");
-    background-size: cover;
-    background-position: center;
-    min-height: 90vh;
-    margin-bottom: 0;
-    .wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 90vh;
-        .playContent {
-            width: 60%;
-            border: 24px solid $pastelBlue;
-            background-color: $solidWhite;
-            padding: 60px;
-            text-align: center;
-        }
+.projectIcons {
+  //
+  margin-bottom: 100px;
+}
+
+.projects {
+  img {
+    width: 600px;
+    margin: 0 auto;
+  }
+}
+
+.imageContainer {
+  i {
+    color: $black;
+    &:hover {
+      color: $blue;
     }
+  }
+  p {
+    padding-top: 10px;
+  }
+  //
+  text-align: center;
+}
+
+// contact section
+
+.contactContent,
+.contactForm {
+  // border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contactContent {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      margin-right: 10%;
+
+      h2 {
+        font-weight: 700;
+      }
+      i {
+        font-size: 60px;
+      }
+      a {
+        color: $black;
+
+        &:hover {
+          color: $blue;
+          cursor: pointer;
+          transition: ease-in 0.1s;
+        }
+      }
+    }
+  }
+
+  .contactForm {
+    width: 60%;
+
+    input,
+    textarea {
+      width: 100%;
+      margin: 0 0 5px;
+      padding: 15px;
+    }
+
+    textarea {
+      height: 100px;
+      max-width: 100%;
+      resize: none;
+    }
+
+    fieldset {
+      border: none;
+      margin: 0 0 10px;
+      min-width: 100%;
+      padding: 0;
+      width: 100%;
+    }
+  }
+}
+
+// whitespace between divs
+.spacer {
+  height: 15vh;
 }

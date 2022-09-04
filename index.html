@@ -1,284 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon-32x32.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/6616413bdf.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Kwabena Osei</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STARTER - Toybox Homepage</title>
-    <link rel="stylesheet" href="./styles/styles.css">
-</head>
-
-<body>
-    <!-- Skip Link -->
-    <a href="#mainContent" class="skip-link">Skip to main content.</a>
-
-    <!-- Announcements Bar -->
-    <div class="announcements">
-        <div class="wrapper">
-            <p class="smallCopy">Complimentary shipping on orders over $50. Discount applied at checkout</p>
+  <body>
+    <header class="primary-header">
+      <div class="container">
+        <div class="nav-wrapper">
+          <h1>Kwabena</h1>
+          <button
+            class="mobile-nav-toggle"
+            aria-controls="primary-navigation"
+            aria-expanded="false"
+          >
+            <img
+              class="icon-hamburger"
+              src="/assets/icon-hamburger.svg"
+              alt=""
+              aria-hidden="true"
+            />
+            <img
+              class="icon-close"
+              src="/assets/icon-close.svg"
+              alt=""
+              aria-hidden="true"
+            />
+            <span class="visually-hidden">Menu</span>
+          </button>
+          <nav class="primary-navigation" id="primary-navigation">
+            <ul aria-label="Primary" class="nav-links">
+              <li><a href="#aboutMe">.about()</a></li>
+              <li><a href="#skills">.skills()</a></li>
+              <li><a href="#projects">.projects()</a></li>
+              <li><a href="#contactMe">.contact()</a></li>
+            </ul>
+          </nav>
         </div>
-    </div>
-
-    <!-- Navigation -->
-    <nav class="navBar">
-        <div class="wrapper">
-            <!-- Slide Out Menu Button -->
-            <input type="checkbox" id="openSideMenu">
-            <label for="openSideMenu" class="menuButton">
-				<img src="./assets/menu-button.svg" alt="Menu Button">
-			</label>
-
-            <!-- Slide Out Nav Content -->
-            <div class="slideOutNav">
-                <div class="buttonContainer">
-                    <label for="openSideMenu" class="menuClose">x</label>
-                    <!-- <button class="menuClose">x</button> -->
-                </div>
-                <!-- Menu Content -->
-                <nav>
-                    <ul class="mainMenu">
-                        <li>
-                            <a href="">Shop</a>
-                        </li>
-                        <li>
-                            <a href="">About</a>
-                        </li>
-                        <li>
-                            <a href="">FAQ</a>
-                        </li>
-                        <li>
-                            <a href="">News</a>
-                        </li>
-                        <li>
-                            <a href="./contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-
-            <!-- NavBar -->
-            <!-- Logo -->
-            <a href="#home" class="logo">
-                <h1>Toybox</h1>
-            </a>
-
-            <!-- Search/Cart -->
-            <div class="searchCart">
-                <button class="menuIcon">
-					<img src="./assets/search.svg" alt="Search Icon">
-				</button>
-
-                <a href="#" class="bag">
-                    <img src="./assets/shop-bag.svg" alt="">
-                </a>
-
-                <div class="counter">
-                    <p class="smallCopy">0</p>
-                </div>
-            </div>
-
-        </div>
-    </nav>
-
-
-    <!-- Header -->
-
-    <header>
-        <div class="wrapper">
-            <div class="headerImgContainer">
-                <img src="./assets/header-image.jpg" alt="A toddler playing with wooden blocks">
-            </div>
-            <div class="textContainer">
-                <h3>Handcrafted for kids</h3>
-                <h2>Go on, let them play with wooden blocks.</h2>
-                <p>Sed gravida eu ac aliquam pellentesque pharetra pharetra. Augue nam facilisis tristique turpis iaculis pulvinar tellus.</p>
-                <a href="#shop" class="shopButton button">Shop All</a>
-            </div>
-            <!-- END TextContainer -->
-        </div>
+      </div>
     </header>
+    <section class="home" id="home"></section>
+    <div class="bg-text">
+      <h1>Hello, I'm <span>Kwabena Osei</span></h1>
+      <p>
+        A front-end <span>developer</span> who relishes bringing designs and
+        concepts to life with <span>clean and responsive code.</span>
+      </p>
+    </div>
 
     <!-- Main Area -->
     <main id="mainContent">
-        <!-- Categories Section -->
-        <section class="categories" id="categories">
-            <div class="wrapper">
-                <h2>Categories</h2>
-                <p>Explore our range of hand-made toys</p>
+      <!-- Categories Section -->
+      <div class="spacer"></div>
+      <section class="about" id="aboutMe">
+        <div class="wrapper">
+          <h2>About Me 📝</h2>
+          <p>
+            Hello! Thank you for checking out my website. I recently graduated
+            from
+            <a href="https://junocollege.com/">Juno College of Technology</a>,
+            where I was apart of cohort 42 🦨! I'm a well-organzied person,
+            problem solver and an independent worker with high attention to
+            detail.
+          </p>
+          <p>
+            ⚽🏐 In my down time I enjoy playing sports, some video games and
+            also being active at the gym. I'm also really into anime
+            <small>(either watching or reading manga)</small> so feel free to
+            reach out to me with any recommendations!
+          </p>
+        </div>
+      </section>
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <section class="skills" id="skills">
+        <div class="wrapper">
+          <h2>Skills 🧰</h2>
 
-                <!-- Product Gallery -->
-                <div class="categoryGallery">
-                    <ul class="categoryList">
+          <ul class="skillsContainer">
+            <li>
+              <i class="devicon-html5-plain"></i>
+              <p>html</p>
+            </li>
+            <li>
+              <i class="devicon-css3-plain"></i>
+              <p>css</p>
+            </li>
+            <li>
+              <i class="devicon-javascript-plain"></i>
+              <p>Javascript</p>
+            </li>
+            <li>
+              <i class="devicon-sass-original"></i>
+              <p>sass</p>
+            </li>
+            <li>
+              <i class="devicon-react-original"></i>
+              <p>react</p>
+            </li>
+            <li>
+              <i class="devicon-firebase-plain"></i>
+              <p>firebase</p>
+            </li>
+            <li>
+              <i class="devicon-github-original"></i>
+              <p>github/git</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <section class="projects" id="projects">
+        <div class="wrapper">
+          <h2>Projects 💻</h2>
+          <h4>Personalized Weather App</h4>
+          <a href="https://kwabenaosei-project3.netlify.app/"
+            ><img src="./assets/project-3.png"
+          /></a>
+        </div>
+        <div class="imageContainer">
+          <p>
+            An app that generates personal weather information for the user as
+            well as any desired location around the world.
+          </p>
+          <a href="https://github.com/Kwabena2K/KwabenaOsei-Project3"
+            ><i class="fa-brands fa-github fa-3x"></i
+          ></a>
+          <a href="https://kwabenaosei-project3.netlify.app/"
+            ><i class="fa-brands fa-chrome fa-3x"></i
+          ></a>
+          <div class="projectIcons">
+            <p>Created with:</p>
+            <i class="devicon-html5-plain"></i>
+            <i class="devicon-css3-plain"></i>
+            <i class="devicon-javascript-plain"></i>
+            <i class="devicon-react-original"></i>
+          </div>
+        </div>
+        <div class="wrapper">
+          <h4>Movie Randomizer</h4>
+          <a href="https://movierandomizer.netlify.app/"
+            ><img src="./assets/project-1.png"
+          /></a>
+        </div>
+        <div class="imageContainer">
+          <p>
+            A simple app that uses an API to randomly generate movies. Paired
+            programming with
+            <a href="https://charlesliportfolio.netlify.app/">Charles Li.</a>
+          </p>
+          <a href="https://github.com/PairedProject-2/MovieRandomizer"
+            ><i class="fa-brands fa-github fa-3x"></i
+          ></a>
+          <a href="https://movierandomizer.netlify.app/"
+            ><i class="fa-brands fa-chrome fa-3x"></i
+          ></a>
+          <div class="projectIcons">
+            <p>Created with:</p>
+            <i class="devicon-html5-plain"></i>
+            <i class="devicon-css3-plain"></i>
+            <i class="devicon-javascript-plain"></i>
+          </div>
+        </div>
+        <div class="wrapper">
+          <h4>Multi Page Web Design</h4>
+          <a href="https://verdant-yeot-d2a47b.netlify.app/"
+            ><img src="./assets/multi-page-web-design.png"
+          /></a>
+        </div>
+        <div class="imageContainer">
+          <p>
+            A Multi-page PSD conversion using design files brought to life using
+            HTML and SASS. <p>This was my first multi-page web design and I learned
+            a lot using flexbox and sass to bring this to life.</p>
+          </p>
+          <a href="https://github.com/Kwabena2K/kwabenaOsei-Project1"
+            ><i class="fa-brands fa-github fa-3x"></i
+          ></a>
+          <a href="https://verdant-yeot-d2a47b.netlify.app/"
+            ><i class="fa-brands fa-chrome fa-3x"></i
+          ></a>
+          <div class="projectIcons">
+            <p>Created with:</p>
+            <i class="devicon-html5-plain"></i>
+            <i class="devicon-css3-plain"></i>
+            <i class="devicon-sass-original"></i>
+          </div>
+        </div>
+        <div class="wrapper">
+          <h4>Single Page Web Design</h4>
+          <a href="https://jolly-pixie-6b38e4.netlify.app/"
+            ><img src="./assets/first-web-design-project.png"
+          /></a>
+        </div>
+        <div class="imageContainer">
+          <p>
+            This was my first web design and I learned a lot with positioning
+            elements on a webpage.
+          </p>
+          <a href="https://github.com/Kwabena2K/KwabenaAssignment1"
+            ><i class="fa-brands fa-github fa-3x"></i
+          ></a>
+          <a href="https://jolly-pixie-6b38e4.netlify.app/"
+            ><i class="fa-brands fa-chrome fa-3x"></i
+          ></a>
+          <div class="projectIcons">
+            <p>Created with:</p>
+            <i class="devicon-html5-plain"></i>
+            <i class="devicon-css3-plain"></i>
+          </div>
+        </div>
+      </section>
 
-                        <!-- Gallery Item One -->
-                        <li class="items itemOne">
-                            <a href="#">
-                                <img src="./assets/safari-trio.jpg" alt="Three wooden safari animal toys for kids">
-                                <h4>Safari</h4>
-                                <p>Land-dwelling African favourites</p>
-                            </a>
-                        </li>
+      <section class="contact" id="contactMe">
+        <div class="wrapper">
+          <div class="contactContent">
+            <h2>Connect with me 📬</h2>
+            <p>
+              If you would like to discuss about one of my projects or any
+              future inquiries, please feel free to send me a message!
+            </p>
 
-                        <!-- Gallery Item Two -->
-                        <li class="items itemTwo">
-                            <a href="#">
-                                <img src="./assets/ocean-trio.jpg" alt="Three wooden under sea creature toys for kids">
-                                <h4>Ocean</h4>
-                                <p>Adorable aquatic creatures</p>
-                            </a>
-                        </li>
+            <p>
+              <a href="https://www.linkedin.com/in/kwabena-osei-1512b2230/">
+                <i class="devicon-linkedin-plain"></i
+              ></a>
+              <a href="https://github.com/Kwabena2K">
+                <i class="devicon-github-original"></i
+              ></a>
+            </p>
+          </div>
 
-                        <li class="items itemThree">
-                            <a href="#">
-                                <img src="./assets/dino-trio.jpg" alt="Three wooden dinosaur toys for kids">
-                                <h4>Dinos</h4>
-                                <p>Meet these prehistoric pals</p>
-                            </a>
-                        </li>
-
-                        <li class="items itemFour">
-                            <a href="#">
-                                <img src="./assets/sale.jpg" alt="Toddler pulling two wooden animals on wheels">
-                                <h4>Sale</h4>
-                                <p>Act quickly and grab these bargains</p>
-                            </a>
-                        </li>
-                    </ul>
+          <div class="contactForm">
+            <form
+              action="https://formspree.io/f/mwkzeged"
+              method="POST"
+              name="contact"
+              id="contactForm"
+            >
+              <fieldset>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="name"
+                  required=""
+                />
+              </fieldset>
+              <fieldset>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="email"
+                  required=""
+                />
+              </fieldset>
+              <fieldset>
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="message"
+                  required=""
+                ></textarea>
+              </fieldset>
+              <fieldset>
+                <div class="submit-container">
+                  <button class="submit">
+                    Submit
+                  </button>
                 </div>
-            </div>
-        </section>
-
-        <!-- Let Them Play Section -->
-
-        <section class="play" id="play">
-            <div class="wrapper">
-                <div class="playContent">
-                    <h3>Learning through doing</h3>
-                    <h2>Let them play</h2>
-                    <p>Bauris eget lacus, amet mollis felis, sed posuere odio. Justo purus orci ultricies et. Sit etiam porta sed tellus. Cattis pellentesque felis tristique eget purus feugiat massa.</p>
-                    <a href="#" class="aboutButton button">Learn About Us</a>
-                </div>
-            </div>
-        </section>
+                <p id="my-form-status"></p>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+      <div class="spacer"></div>
     </main>
 
     <!-- FOOTER -->
-    <footer id="footer" class="footer">
-        <div class="wrapper">
-
-            <div class="footerFlexContainer">
-                <!-- Logo -->
-                <a href="" class="footerLogo">
-                    <h4>Toybox</h4>
-                </a>
-
-                <!-- FooterNAV container -->
-                <div class="footerNav">
-                    <nav>
-
-                        <!-- Footer Shop List -->
-                        <ul class="footerShop">
-                            <li>
-                                <h5>Shop</h5>
-                            </li>
-                            <li>
-                                <a href="#">Safari</a>
-                            </li>
-                            <li>
-                                <a href="#">Ocean</a>
-                            </li>
-                            <li>
-                                <a href="#">Dinos</a>
-                            </li>
-                            <li>
-                                <a href="#">Sale</a>
-                            </li>
-                        </ul>
-                        <!-- END Footer Shop List -->
-
-
-                        <!-- Footer About List -->
-                        <ul class="footerAbout">
-                            <li>
-                                <h5>About</h5>
-                            </li>
-                            <li>
-                                <a href="#">About Us</a>
-                            </li>
-                            <li>
-                                <a href="#">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="#">News</a>
-                            </li>
-                            <li>
-                                <a href="#">Legal</a>
-                            </li>
-                            <li>
-                                <a href="./contact.html">Contact</a>
-                            </li>
-                        </ul>
-                        <!-- END Footer About -->
-
-                        <!-- Footer Template List -->
-                        <ul class="footerTemp">
-                            <li>
-                                <h5>Template</h5>
-                            </li>
-                            <li>
-                                <a href="#">Style Guide</a>
-                            </li>
-                            <li>
-                                <a href="#">Licenses</a>
-                            </li>
-                            <li>
-                                <a href="#">Change Log</a>
-                            </li>
-                        </ul>
-                        <!-- END Footer Template List -->
-                    </nav>
-                </div>
-                <!-- END FooterNav -->
-            </div>
-            <!-- END FooterFlexContainer -->
-
-            <!-- Social and Copyright Flex Container -->
-            <div class="social">
-
-                <!-- icon container -->
-                <div class="socialIcons">
-                    <a href="#">
-                        <i class="twitter" aria-hidden="true"></i>
-                        <span class="sr-only">Link to Twitter</span>
-                    </a>
-                    <a href="#">
-                        <i class="pinterest" aria-hidden="true"></i>
-                        <span class="sr-only">Link to Pinterest</span>
-                    </a>
-                    <a href="#">
-                        <i class="insta" aria-hidden="true"></i>
-                        <span class="sr-only">Link to Instagram</span>
-                    </a>
-                    <a href="#">
-                        <i class="facebook" aria-hidden="true"></i>
-                        <span class="sr-only">Link to Facebook</span>
-                    </a>
-                </div>
-                <!-- END socialIcons -->
-
-                <div class="copyright">
-                    <p class="smallCopy">© Copyright Company</p>
-                </div>
-                <!-- END Copyright -->
-
-            </div>
-            <!-- END Social -->
-
-        </div>
-        <!-- END Footer Wrapper -->
-    </footer>
-
-</body>
-
+    <footer id="footer" class="footer">Designed by Kwabena Osei</footer>
+  </body>
+  <script src="./Hamburger-menu.js"></script>
 </html>

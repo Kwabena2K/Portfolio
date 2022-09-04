@@ -1,31 +1,7 @@
 footer {
-    background: $primary;
-    padding: 75px;
-    color: $solidWhite;
-    .footerFlexContainer {
-        display: flex;
-        justify-content: space-between;
-    }
-}
-
-.footerLogo h4 {
-    color: $solidWhite;
-}
-
-.footerNav nav {
-    display: flex;
-    justify-content: space-between;
-}
-
-.footerNav {
-    width: 50%;
-}
-
-.social {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 25px;
-    i {
-        margin: 0 10px;
-    }
+  background: $solidWhite;
+  margin: 0 auto;
+  padding: 25px;
+  color: $blue;
+  text-align: center;
 }
