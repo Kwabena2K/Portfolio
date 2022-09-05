@@ -54,6 +54,7 @@ a,
 input {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 ul {
@@ -64,7 +65,7 @@ a {
   text-decoration: none;
   color: inherit;
 
-  color: $blue;
+  color: $red;
 }
 
 p {

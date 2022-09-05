@@ -1,9 +1,20 @@
-const navToggle = document.querySelector(".mobile-nav-toggle");
-const primaryNav = document.querySelector(".primary-navigation");
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
 
-navToggle.addEventListener("click", () => {
-  primaryNav.hasAttribute("data-visible")
-    ? navToggle.setAttribute("aria-expanded", false)
-    : navToggle.setAttribute("aria-expanded", true);
-  primaryNav.toggleAttribute("data-visible");
-});
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+}
+
+// close on click
+
+const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach((n) => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
+}
