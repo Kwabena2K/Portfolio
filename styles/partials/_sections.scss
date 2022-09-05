@@ -3,7 +3,7 @@
 }
 
 .home {
-  background-image: url("../../assets/bg-image.jpg");
+  background-image: url("../../assets/placeholder6.jpg");
   background-position: center;
   filter: blur(4px);
   background-repeat: no-repeat;
@@ -72,7 +72,7 @@
 
 .projects {
   img {
-    width: 600px;
+    width: 500px;
     margin: 0 auto;
   }
 }
@@ -91,72 +91,13 @@
   text-align: center;
 }
 
-// contact section
+//contact
 
-.contactContent,
-.contactForm {
+.contact .wrapper {
+  margin-bottom: 100px;
   // border: 2px solid red;
-  display: flex;
-  flex-direction: column;
 }
-
-.contact {
-  .wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    .contactContent {
-      display: flex;
-      flex-direction: column;
-      width: 30%;
-      margin-right: 10%;
-
-      h2 {
-        font-weight: 700;
-      }
-      i {
-        font-size: 60px;
-      }
-      a {
-        color: $black;
-
-        &:hover {
-          color: $blue;
-          cursor: pointer;
-          transition: ease-in 0.1s;
-        }
-      }
-    }
-  }
-
-  .contactForm {
-    width: 60%;
-
-    input,
-    textarea {
-      width: 100%;
-      margin: 0 0 5px;
-      padding: 15px;
-    }
-
-    textarea {
-      height: 100px;
-      max-width: 100%;
-      resize: none;
-    }
-
-    fieldset {
-      border: none;
-      margin: 0 0 10px;
-      min-width: 100%;
-      padding: 0;
-      width: 100%;
-    }
-  }
-}
-
 // whitespace between divs
 .spacer {
-  height: 15vh;
+  height: 20vh;
 }
