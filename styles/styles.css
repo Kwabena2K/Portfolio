@@ -442,7 +442,7 @@ section button:hover {
           filter: blur(4px);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 110vh;
+  height: 90vh;
 }
 
 .bg-text {
