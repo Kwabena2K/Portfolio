@@ -345,7 +345,8 @@ img {
   width: 90%;
   margin: 0 auto;
 }
-.wrapper h4 {
+.wrapper h4,
+.wrapper h5 {
   text-align: center;
   padding-bottom: 10px;
 }
