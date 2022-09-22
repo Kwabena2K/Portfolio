@@ -432,10 +432,6 @@ section button:hover {
   background-color: #101010;
 }
 
-.categories {
-  margin-top: 90px;
-}
-
 .home {
   background-image: url("../../assets/placeholder6.jpg");
   background-position: center;
@@ -518,7 +514,9 @@ section button:hover {
   color: #e63946;
 }
 .imageContainer p {
-  padding-top: 10px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 .contact .wrapper {

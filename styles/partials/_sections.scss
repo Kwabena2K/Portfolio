@@ -1,7 +1,4 @@
-.categories {
-  margin-top: 90px;
-}
-
+//home
 .home {
   background-image: url("../../assets/placeholder6.jpg");
   background-position: center;
@@ -20,7 +17,6 @@
   z-index: 2;
   border: 3px solid #f1f1f1;
   color: white;
-  // width: 60%;
   padding: 20px;
   text-align: center;
   h1 {
@@ -65,8 +61,8 @@
   }
 }
 
+// projects
 .projectIcons {
-  //
   margin-bottom: 100px;
 }
 
@@ -85,9 +81,10 @@
     }
   }
   p {
-    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 0;
   }
-  //
   text-align: center;
 }
 
@@ -95,7 +92,6 @@
 
 .contact .wrapper {
   margin-bottom: 100px;
-  // border: 2px solid red;
 }
 // whitespace between divs
 .spacer {
