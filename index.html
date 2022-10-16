@@ -1,263 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/6616413bdf.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Kwabena Osei</title>
-    <link rel="stylesheet" href="./styles/styles.css" />
-  </head>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/>
+        <script src="https://kit.fontawesome.com/6616413bdf.js" crossorigin="anonymous"></script>
+        <title>Kwabena Osei</title>
+        <link rel="stylesheet" href="./styles/styles.css"/>
+    </head>
 
-  <body>
-    <header>
-          <nav class="navbar">
-            <a href="#" class="nav-branding">Kwabena</a>
-            <ul class="nav-menu">
-              <li class="nav-item"><a href="#aboutMe" class="nav-link">.about()</a></li>
-              <li class="nav-item"><a href="#skills" class="nav-link">.skills()</a></li>
-              <li class="nav-item"><a href="#projects" class="nav-link">.projects()</a></li>
-              <li class="nav-item"><a href="#contact" class="nav-link">.contact()</a></li>
-            </ul>
-            <div class="hamburger">
-              <span class="bar"></span>
-               <span class="bar"></span>
-                <span class="bar"></span>
+    <body>
+        <header>
+            <nav class="navbar">
+                <a href="#" class="nav-branding">Kwabena</a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#aboutMe" class="nav-link">.about()</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">.skills()</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">.projects()</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">.contact()</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+        <section class="home" id="home"></section>
+        <div class="bg-text">
+            <h1>Hello, I'm
+                <span>Kwabena Osei</span>
+            </h1>
+            <p>
+                A front-end
+                <span>developer</span>
+                who relishes bringing designs and
+                        concepts to life with
+                <span>clean and responsive code.</span>
+            </p>
+        </div>
+
+        <!-- Main Area -->
+        <main id="mainContent">
+
+            <div class="spacer"></div>
+            <!-- Start of About -->
+            <section class="about" id="aboutMe">
+                <div class="wrapper">
+                    <h2>About Me 📝</h2>
+                    <p>
+                        Hello! Thank you for checking out my website. I recently graduated
+                                    from
+                        <a href="https://junocollege.com/">Juno College of Technology</a>,
+                                        where I was apart of cohort 42 🦨! I'm a well-organzied person,
+                                        problem solver and an independent worker with high attention to
+                                        detail.
+                    </p>
+                    <p>
+                        ⚽🏐 In my down time I enjoy playing sports, some video games and
+                                    also being active at the gym. I'm also really into anime
+                        <small>(either watching or reading manga)</small>
+                        so feel free to
+                                    reach out to me with any recommendations!
+                    </p>
+                </div>
+            </section>
+            <!-- End of About -->
+
+
+            <div class="spacer"></div>
+            <!-- Start of Skills -->
+            <section class="skills" id="skills">
+                <div class="wrapper">
+                    <h2>Skills 🧰</h2>
+
+                    <ul class="skillsContainer">
+                        <li>
+                            <i class="devicon-html5-plain"></i>
+                            <p>html</p>
+                        </li>
+                        <li>
+                            <i class="devicon-css3-plain"></i>
+                            <p>css</p>
+                        </li>
+                        <li>
+                            <i class="devicon-javascript-plain"></i>
+                            <p>Javascript</p>
+                        </li>
+                        <li>
+                            <i class="devicon-sass-original"></i>
+                            <p>sass</p>
+                        </li>
+                        <li>
+                            <i class="devicon-react-original"></i>
+                            <p>react</p>
+                        </li>
+                        <li>
+                            <i class="devicon-firebase-plain"></i>
+                            <p>firebase</p>
+                        </li>
+                        <li>
+                            <i class="devicon-github-original"></i>
+                            <p>github/git</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- End of Skills -->
+
+
+            <div class="spacer"></div>
+            <!-- Start of Projects -->
+            <section
+                class="projects" id="projects">
+
+                <!-- Project 4 -->
+                <div class="wrapper">
+                    <h2>Projects 💻</h2>
+                    <h4>E-commerce website</h4>
+                    <h5>AlphaKeys.ca 🇨🇦
+                    </h5>
+
+                    <img src="./assets/project-4.png"/>
+                </div>
+                <div class="imageContainer">
+                    <p>A Canadian e-commerce store which sells keyboards, keycaps, switches, deskmats etc.
+                    </p>
+                    <p>Used front end core principles to perform styling that matched the wireframe of the website</p>
+                    <p>This website was created in collaboration with the owner.</p>
+                </p>
+                <a href="https://alphakeys.ca">
+                    <i class="fa-brands fa-chrome fa-3x"></i>
+                </a>
+                <div class="projectIcons">
+                    <p>Created with:</p>
+                    <i class="devicon-html5-plain"></i>
+                    <i class="devicon-css3-plain"></i>
+                    <i class="devicon-javascript-plain"></i>
+                </div>
             </div>
-          </nav>
-    </header>
-    <section class="home" id="home"></section>
-    <div class="bg-text">
-      <h1>Hello, I'm <span>Kwabena Osei</span></h1>
-      <p>
-        A front-end <span>developer</span> who relishes bringing designs and
-        concepts to life with <span>clean and responsive code.</span>
-      </p>
-    </div>
 
-    <!-- Main Area -->
-    <main id="mainContent">
-  
-   <div class="spacer"></div>
-<!-- Start of About -->
-      <section class="about" id="aboutMe">
-        <div class="wrapper">
-          <h2>About Me 📝</h2>
-          <p>
-            Hello! Thank you for checking out my website. I recently graduated
-            from
-            <a href="https://junocollege.com/">Juno College of Technology</a>,
-            where I was apart of cohort 42 🦨! I'm a well-organzied person,
-            problem solver and an independent worker with high attention to
-            detail.
-          </p>
-          <p>
-            ⚽🏐 In my down time I enjoy playing sports, some video games and
-            also being active at the gym. I'm also really into anime
-            <small>(either watching or reading manga)</small> so feel free to
-            reach out to me with any recommendations!
-          </p>
-        </div>
-      </section>
-<!-- End of About -->
-      
-      
-      <div class="spacer"></div>
-<!-- Start of Skills -->
-      <section class="skills" id="skills">
-        <div class="wrapper">
-          <h2>Skills 🧰</h2>
-
-          <ul class="skillsContainer">
-            <li>
-              <i class="devicon-html5-plain"></i>
-              <p>html</p>
-            </li>
-            <li>
-              <i class="devicon-css3-plain"></i>
-              <p>css</p>
-            </li>
-            <li>
-              <i class="devicon-javascript-plain"></i>
-              <p>Javascript</p>
-            </li>
-            <li>
-              <i class="devicon-sass-original"></i>
-              <p>sass</p>
-            </li>
-            <li>
-              <i class="devicon-react-original"></i>
-              <p>react</p>
-            </li>
-            <li>
-              <i class="devicon-firebase-plain"></i>
-              <p>firebase</p>
-            </li>
-            <li>
-              <i class="devicon-github-original"></i>
-              <p>github/git</p>
-            </li>
-          </ul>
-        </div>
-      </section>
-<!-- End of Skills -->
-      
-     
-      <div class="spacer"></div>
-<!-- Start of Projects -->
-      <section class="projects" id="projects">
-
-<!-- Project 4 -->
-        <div class="wrapper">
-          <h2>Projects 💻</h2>
-          <h4>E-commerce website</h4>
-          <h5>AlphaKeys.ca 🇨🇦 </h5>
-          
-            <img src="./assets/project-4.png"
-          />
-        </div>
-        <div class="imageContainer">
-          <p>
-            A Canadian e-commerce store which sells keyboards, keycaps, switches, deskmats etc. 
-            <p>Used front end core principles to perform styling that matched the wireframe of the website</p>
-            <p>This website was created in collaboration with the owner.</p>
-          </p>
-          <a href="https://github.com/Kwabena2K/AlphaKeys"
-            ><i class="fa-brands fa-github fa-3x"></i
-          ></a>
-          <a href="https://alphakeys.ca"
-            ><i class="fa-brands fa-chrome fa-3x"></i
-          ></a>
-          <div class="projectIcons">
-            <p>Created with:</p>
-            <i class="devicon-html5-plain"></i>
-            <i class="devicon-css3-plain"></i>
-            <i class="devicon-javascript-plain"></i>
-          </div>
-        </div>
-
-<!-- Project 3 -->
-        <div class="wrapper">
-          <h4>Personalized Weather App</h4>
-          <img src="./assets/project-3.png"
-          />
-        </div>
-        <div class="imageContainer">
-          <p>
-            Looking to dress according to the weather? Using this application <p>The user enters any location and once entered, it will provide the relevant weather information for that location.</p> <p>All data extracted from the OpenWeathermapAPI.</p></p>
-          </p>
-          <a href="https://github.com/Kwabena2K/KwabenaOsei-Project3"
-            ><i class="fa-brands fa-github fa-3x"></i
-          ></a>
-          <a href="https://kwabenaosei-project3.netlify.app/"
-            ><i class="fa-brands fa-chrome fa-3x"></i
-          ></a>
-          <div class="projectIcons">
+            <!-- Project 3 -->
+            <div class="wrapper">
+                <h4>Personalized Weather App</h4>
+                <img src="./assets/project-3.png"/>
+            </div>
+            <div class="imageContainer">
+                <p>Looking to dress according to the weather? Using this application
+                </p>
+                <p>The user enters any location and once entered, it will provide the relevant weather information for that location.</p>
+                <p>All data extracted from the OpenWeathermapAPI.</p>
+            </p>
+        </p>
+        <a href="https://github.com/Kwabena2K/KwabenaOsei-Project3">
+            <i class="fa-brands fa-github fa-3x"></i>
+        </a>
+        <a href="https://kwabenaosei-project3.netlify.app/">
+            <i class="fa-brands fa-chrome fa-3x"></i>
+        </a>
+        <div class="projectIcons">
             <p>Created with:</p>
             <i class="devicon-html5-plain"></i>
             <i class="devicon-css3-plain"></i>
             <i class="devicon-javascript-plain"></i>
             <i class="devicon-react-original"></i>
-          </div>
         </div>
-
-        <!-- Project 2 -->
-        <div class="wrapper">
-          <h4>Movie Randomizer</h4>
-          <img src="./assets/project-1.png"
-          />
-        </div>
-        <div class="imageContainer">
-          <p>
-            An app that was built by a fellow developer during my time at Juno that randomizes movies from an API. <p>The user can choose from a list of movies based on how
-            indecisive they are currently feeling.</p>  
-            <p>If the user is very hesitant they can select an option to display one recommended movie to curb their frustration.</p><p>Paired
-            programming with
-            <a href="https://charlesliportfolio.netlify.app/">Charles Li.</a></p> 
-          </p>
-          <a href="https://github.com/PairedProject-2/MovieRandomizer"
-            ><i class="fa-brands fa-github fa-3x"></i
-          ></a>
-          <a href="https://movierandomizer.netlify.app/"
-            ><i class="fa-brands fa-chrome fa-3x"></i
-          ></a>
-          <div class="projectIcons">
-            <p>Created with:</p>
-            <i class="devicon-html5-plain"></i>
-            <i class="devicon-css3-plain"></i>
-            <i class="devicon-javascript-plain"></i>
-          </div>
-        </div>
-
-
-        <!-- Project 1 -->
-        <div class="wrapper">
-          <h4>Multi Page Web Design</h4>
-          <img src="./assets/multi-page-web.png"
-          />
-        </div>
-        <div class="imageContainer">
-          <p>
-            A Multi-page PSD conversion using design files brought to life using
-            HTML and SASS. <p>This was my first multi-page web design and I learned
-            a lot using flexbox and sass to bring this to life.</p>
-          </p>
-          <a href="https://github.com/Kwabena2K/kwabenaOsei-Project1"
-            ><i class="fa-brands fa-github fa-3x"></i
-          ></a>
-          <a href="https://multipageweb.netlify.app/"
-            ><i class="fa-brands fa-chrome fa-3x"></i
-          ></a>
-          <div class="projectIcons">
-            <p>Created with:</p>
-            <i class="devicon-html5-plain"></i>
-            <i class="devicon-css3-plain"></i>
-            <i class="devicon-sass-original"></i>
-          </div>
-        </div>
-      </section>
-<!-- End of Projects -->
-
-<!-- Footer -->
-	<section class="contact mainContent" id="contact">
-   <div class="wrapper">
-           <h2>Connect with me 📬</h2>
-            <p>
-              If you would like to discuss about one of my projects or any
-              future inquiries, please feel free to send me a message!
-            </p>
-        </div>
-			<form action="https://formspree.io/f/mwkzeged" method="POST" class="contactForm" name="contactForm">
-				<label for="name" class="sr-only">Name</label>
-				<input type="text" id="name" placeholder="name">
- 
-				<label for="email" class="sr-only">Email</label>
-				<input type="text" id="email" placeholder="email">			
-				<textarea name="message" id="message" cols="20" rows="5" placeholder="message"></textarea>
-				<button>Submit</button>
-			</form>
-
-		</div>
-	</section> 
-<!-- End of Footer -->
-    </main>
-
-    <!-- FOOTER -->
-    <footer id="footer" class="footer">Designed by Kwabena Osei</footer>
-  </body>
-  <script src="./Hamburger-menu.js" type="module"></script>
-</html>
+    </body>
+</html></div><!-- Project 2 --><div class="wrapper">
+<h4>Movie Randomizer</h4>
+<img src="./assets/project-1.png"/></div><div class="imageContainer">
+<p>An app that was built by a fellow developer during my time at Juno that randomizes movies from an API.
+</p>
+<p>The user can choose from a list of movies based on how
+                indecisive they are currently feeling.</p>
+<p>If the user is very hesitant they can select an option to display one recommended movie to curb their frustration.</p>
+<p>Paired
+                programming with
+    <a href="https://charlesliportfolio.netlify.app/">Charles Li.</a>
+</p></p><a href="https://github.com/PairedProject-2/MovieRandomizer">
+<i class="fa-brands fa-github fa-3x"></i></a><a href="https://movierandomizer.netlify.app/">
+<i class="fa-brands fa-chrome fa-3x"></i></a><div class="projectIcons">
+<p>Created with:</p>
+<i class="devicon-html5-plain"></i>
+<i class="devicon-css3-plain"></i>
+<i class="devicon-javascript-plain"></i></div></div><!-- Project 1 --><div class="wrapper"><h4>Multi Page Web Design</h4><img src="./assets/multi-page-web.png"/></div><div class="imageContainer"><p>A Multi-page PSD conversion using design files brought to life using
+                HTML and SASS.</p><p>This was my first multi-page web design and I learned
+                a lot using flexbox and sass to bring this to life.</p></p><a href="https://github.com/Kwabena2K/kwabenaOsei-Project1"><i class="fa-brands fa-github fa-3x"></i></a><a href="https://multipageweb.netlify.app/"><i class="fa-brands fa-chrome fa-3x"></i></a><div class="projectIcons"><p>Created with:</p><i class="devicon-html5-plain"></i><i class="devicon-css3-plain"></i><i class="devicon-sass-original"></i></div></div></section><!-- End of Projects --><!-- Footer --><section class="contact mainContent" id="contact"><div class="wrapper"><h2>Connect with me 📬</h2><p>If you would like to discuss about one of my projects or any
+                  future inquiries, please feel free to send me a message!</p></div><form action="https://formspree.io/f/mwkzeged" method="POST" class="contactForm" name="contactForm"><label for="name" class="sr-only">Name</label><input type="text" id="name" placeholder="name"><label for="email" class="sr-only">Email</label><input type="text" id="email" placeholder="email"><textarea name="message" id="message" cols="20" rows="5" placeholder="message"></textarea><button>Submit</button></form></div></section><!-- End of Footer --></main><!-- FOOTER --><footer id="footer" class="footer">Designed by Kwabena Osei</footer></body><script src="./Hamburger-menu.js" type="module"></script></html>
